@@ -43,10 +43,25 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+
+Part 1 of 3 of full game
+![](https://i.imgur.com/JkRNnCX.gif)
+
+Part 2 of 3
+![](https://i.imgur.com/w7uhzzH.gif)
+
+Part 3 of 3
+![](https://i.imgur.com/7rkBlk9.gif)
+
+Displaying Below: 
+- Animation on button hover (looks like a real button being pressed)
+- Time expiration results in strike
+- Timer resets after a strike
+- Losing a game
+
+![](https://i.imgur.com/K56q6Kh.gif)
+
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
@@ -59,24 +74,56 @@ https://codepen.io/Momika/pen/ydaWmQ
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
  
-The most difficult part of the entire assignment was getting the timer to work countdown timer to work correctly. Implementing the 
-timer without a visible timer was not very challenging, but matching a visible timer required the knowledge of hiding/revealing page elements
-and the use of 'setTimeout.' The timer needed to reset every time when the game was started, a clue sequence started, when the guess was wrong, 
-the guess was correct, when the game was won or lost, and when the timer timeout resulted in a strike. These were the areas to consider because 
-otherwise, the timer might start off at a random number between (5-0) and then change the displayed time back to 5. This could be confusing to the 
-user, so I made sure that was not an issue by carefully placing a function that would clear the timer and restart it. Another layer on top of this 
-was the fact that every clue sequence did not last the same amount of time and the game needed to speed up with each turn. Proper use of the given 'delay' variable proved to be very useful in cueing when my timer should fire off. After solving this. I could easily implement another feature that I thought was very useful: a wait indicator attached to the cursor while the clue sequence was playing. This would allow the user to know when the sequence has 
-finished being displayed. Understanding how to implement the timer made this process much easier because the code was similar.
-
+The most difficult part of the entire assignment was getting the timer to work countdown
+timer to work correctly. Implementing the timer without a visible timer was not very 
+challenging, but matching a visible timer required the knowledge of hiding/revealing page
+elements and the use of 'setTimeout.' The timer needed to reset every time when the game
+was started, a clue sequence started, when the guess was wrong, the guess was correct,
+when the game was won or lost, and when the timer timeout resulted in a strike. These were
+the areas to consider because otherwise, the timer might start off at a random number
+between (5-0) and then change the displayed time back to 5. This could be confusing to the 
+user, so I made sure that was not an issue by carefully placing a function that would 
+clear the timer and restart it. Another layer on top of this was the fact that every clue 
+sequence did not last the same amount of time and the game needed to speed up with each 
+turn. Proper use of the given 'delay' variable proved to be very useful in cueing when my
+timer should fire off. After solving this. I could easily implement another feature that I
+thought was very useful: a wait indicator attached to the cursor while the clue sequence
+was playing. This would allow the user to know when the sequence has finished being 
+displayed. Understanding how to implement the timer made this process much easier because 
+the code was similar.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-I would like to work with and learn about different frameworks to improve the coding process and efficiency of my websites. Also, I would like to
-want to know how to incorporate other languages with web devopment and understand how to use databases with my websites to pull and push data from a 
-server that I oversee. In respect to using other langages, my curiosity lies in how one may use another language to run tests on a website, such as Python. I know i can right code in C, and then have a Python script that runs all sorts of tests on my C program. I would love to learn how I can incorparate my knowledge of other languages into web development, which may help with my personal development of iOS apps as well.
+
+I would like to work with and learn about different frameworks to improve the coding
+process and efficiency of my websites. Also, I would like to want to know how to
+incorporate other languages with web devopment and understand how to use databases with my
+websites to pull and push data from a server that I oversee. In respect to using other
+langages, my curiosity lies in how one may use another language to run tests on a website,
+such as Python. I know i can right code in C, and then have a Python script that runs all
+sorts of tests on my C program. I would love to learn how I can incorparate my knowledge 
+of other languages into web development, which may help with my personal development of 
+iOS apps as well.
+
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-The visual appearance of the code is very important to consider, so I would make the code more readable and comment if possible. I would have liked to add a strike counter so the user does not have to remember the count from the alerts displayed. I wanted to add a shiny glass effect over the buttons with transparent overlay images, but I felt it may have broken up the simplest design I was aiming for. There was also the issue of finding an actual transparent image that was free to use. Another idea I scrapped was adding a shining .gif image to the bottom right corner of the screen to display that you have beaten the game. Also, I wanted to add confetti falling after winning but settled for a victory sound file instead. I was unsure if adding too many animations would distract the user, anyway. A difficulty setting was intended because when my friends playtested, they were beating the game too easily. I adjusted the clue sequence timing to add difficulty but knew it was possible to go further. What if the sequence was randomized every turn? What if you could make the game go faster with a selectable setting? This would have been the next big feature I would have added because it adds replayability and the user will stay on the website for longer. Adding victory streaks and a leaderboard would have been the absolute limit of my imagination for this game.
+The visual appearance of the code is very important to consider, so I would make the code
+more readable and comment if possible. I would have liked to add a strike counter so the
+user does not have to remember the count from the alerts displayed. I wanted to add a 
+shiny glass effect over the buttons with transparent overlay images, but I felt it may
+have broken up the simplest design I was aiming for. There was also the issue of finding
+an actual transparent image that was free to use. Another idea I scrapped was adding a 
+shining .gif image to the bottom right corner of the screen to display that you have 
+beaten the game. Also, I wanted to add confetti falling after winning but settled for a
+victory sound file instead. I was unsure if adding too many animations would distract the
+user, anyway. A difficulty setting was intended because when my friends playtested, they
+were beating the game too easily. I adjusted the clue sequence timing to add difficulty
+but knew it was possible to go further. What if the sequence was randomized every turn?
+What if you could make the game go faster with a selectable setting? This would have been
+the next big feature I would have added because it adds replayability and the user will
+stay on the website for longer. Adding victory streaks and a leaderboard would have been
+the absolute limit of my imagination for this game.
+
 
 
 
