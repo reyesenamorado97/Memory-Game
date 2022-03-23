@@ -45,6 +45,21 @@ The following **additional** features are implemented:
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
 Part 1 of 3 of full game
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![](https://i.imgur.com/JkRNnCX.gif)
 
 Part 2 of 3
