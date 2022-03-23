@@ -63,9 +63,39 @@ Part 1 of 3 of full game
 ![](https://i.imgur.com/JkRNnCX.gif)
 
 Part 2 of 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![](https://i.imgur.com/w7uhzzH.gif)
 
 Part 3 of 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![](https://i.imgur.com/7rkBlk9.gif)
 
 Displaying Below: 
