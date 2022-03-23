@@ -51,6 +51,10 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
+https://www.howtocodeschool.com/2020/10/button-bounce-effect-using-css.html 
+https://www.w3schools.com/css/css3_buttons.asp 
+https://codepen.io/Momika/pen/ydaWmQ 
+
 
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
