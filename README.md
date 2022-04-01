@@ -45,64 +45,40 @@ The following **additional** features are implemented:
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
 Part 1 of 3 of full game
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ![](https://i.imgur.com/JkRNnCX.gif)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Part 2 of 3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ![](https://i.imgur.com/w7uhzzH.gif)
 
 Part 3 of 3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ![](https://i.imgur.com/7rkBlk9.gif)
 
 Displaying Below: 
 - Animation on button hover (looks like a real button being pressed)
 - Time expiration results in strike
 - Timer resets after a strike
-- Losing a game
+- Losing a game 
 
 ![](https://i.imgur.com/K56q6Kh.gif)
 
@@ -174,7 +150,7 @@ the absolute limit of my imagination for this game.
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](interview.mp4)
 
 
 ## License
