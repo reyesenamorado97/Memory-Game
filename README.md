@@ -237,6 +237,7 @@ that adding stats for users would not be very difficult given the right amount o
 
 I understand my interview is a little bit longer than requested. This is due to thanking CodePath,
 Course Hero and WorkDay at the start. I apologize for any inconvenience this may cause.
+
 [My 5-minute Interview Recording](
 https://user-images.githubusercontent.com/97928078/161342357-692d130a-f47e-4007-89b7-1d1ca9fe3887.mp4
 )
