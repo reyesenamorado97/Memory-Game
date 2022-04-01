@@ -151,9 +151,7 @@ the absolute limit of my imagination for this game.
 ## Interview Recording URL Link
 
 [My 5-minute Interview Recording](
-
 https://user-images.githubusercontent.com/97928078/161342357-692d130a-f47e-4007-89b7-1d1ca9fe3887.mp4
-
 )
 
 
