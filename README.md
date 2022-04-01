@@ -44,6 +44,17 @@ The following **additional** features are implemented:
 
 
 Part 1 of 3 of full game:
+
+
+
+
+
+
+
+
+
+
+
 ![](https://i.imgur.com/JkRNnCX.gif)
 
 
@@ -115,6 +126,21 @@ Part 2 of 3:
 
 
 Part 3 of 3:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![](https://i.imgur.com/7rkBlk9.gif)
 
 Displaying Below: 
