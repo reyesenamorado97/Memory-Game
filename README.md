@@ -186,41 +186,57 @@ the code was similar.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 
-I would like to work with and learn about different frameworks to improve the coding
-process and efficiency of my websites. Also, I would like to want to know how to
-incorporate other languages with web devopment and understand how to use databases with my
-websites to pull and push data from a server that I oversee. In respect to using other
-langages, my curiosity lies in how one may use another language to run tests on a website,
-such as Python. I know i can right code in C, and then have a Python script that runs all
-sorts of tests on my C program. I would love to learn how I can incorparate my knowledge 
-of other languages into web development, which may help with my personal development of 
-iOS apps as well.
+I would like to work with and learn about different frameworks to improve the coding process and 
+efficiency of my websites.Also, I would like to know how to incorporate other languages with web 
+development and understand how to use databases withmy websites to pull and push data from a server
+that I oversee. With respect to using other languages, my curiosity lies inhow one may use another 
+language to run tests on a website, such as Python. The backend of web design fascinates me. I know 
+I can write code in C, and then have a Python script that runs all sorts of tests on my C program. 
+I would love to learn how I can incorporate my knowledge of other languages into web development, 
+which may help with my current development of iOS apps
+as well.
+
+Beyond this, I have an interest in how memory allocation works with different compilers and 
+programming languages. Personally,I would like to know how browsers compile HTML, CSS, and JavaScript 
+source code into useful files for the computer. Is it anything like how the C compiler on an x86-64 machine 
+will produce an executable file from a C source file? Having a better grasp of how compilation works will 
+help save time when debugging.
+
+Finally, are there any textbook recommendations one can consider for expanding their knowledge? Practicing 
+PROGRAMMING is extremely important, but from my experience, textbooks have pushed me to become a
+better PROGRAMMER. Time complexity, understanding data structures through their invariants, and memory
+allocation are not topics I can learn from programming alone. Still, programming is a tool for a 
+computer scientist to understand the machines and processes of compilers we work with.
 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-The visual appearance of the code is very important to consider, so I would make the code
-more readable and comment if possible. I would have liked to add a strike counter so the
-user does not have to remember the count from the alerts displayed. I wanted to add a 
-shiny glass effect over the buttons with transparent overlay images, but I felt it may
-have broken up the simplest design I was aiming for. There was also the issue of finding
+The visual appearance of the code is very important to consider (especially at the production level),
+ so I would make the code more readable and comment if possible. I would have liked to add
+a strike counter so the user does not have to remember the count from the alerts displayed. I wanted 
+to add a shiny glass effect over the buttons with transparent overlay images, but I felt it may
+have broken up the simplistic design I was aiming for. There was also the issue of finding
 an actual transparent image that was free to use. Another idea I scrapped was adding a 
 shining .gif image to the bottom right corner of the screen to display that you have 
 beaten the game. Also, I wanted to add confetti falling after winning but settled for a
 victory sound file instead. I was unsure if adding too many animations would distract the
-user, anyway. A difficulty setting was intended because when my friends playtested, they
+user. A difficulty setting was intended because when my friends playtested, they
 were beating the game too easily. I adjusted the clue sequence timing to add difficulty
 but knew it was possible to go further. What if the sequence was randomized every turn?
 What if you could make the game go faster with a selectable setting? This would have been
 the next big feature I would have added because it adds replayability and the user will
 stay on the website for longer. Adding victory streaks and a leaderboard would have been
-the absolute limit of my imagination for this game.
+the absolute limit of my imagination for this game. I've used Back4App for a clone Instagram app
+made for CodePath's iOS development course to manage user-specific data, so I would imagine
+that adding stats for users would not be very difficult given the right amount of time.
 
 
 
 
 ## Interview Recording URL Link
 
+I understand my interview is a little bit longer than requested. This is due to thanking CodePath,
+Course Hero and WorkDay at the start. I apologize for any inconvenience this may cause.
 [My 5-minute Interview Recording](
 https://user-images.githubusercontent.com/97928078/161342357-692d130a-f47e-4007-89b7-1d1ca9fe3887.mp4
 )
