@@ -1,0 +1,324 @@
+/* default to border-box */
+html {
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  font-family: helvetica, arial, sans-serif;
+  background-color: #f3efef;
+  color: black; 
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  position: relative;
+  animation-name: fallIn;
+  animation-duration: 2s;
+  
+}
+
+@keyframes fallIn {
+  0%   { left:0px; top:-300px;}
+  100% { left:0px; top:0px;}
+}
+
+h1 {
+  font-family:v erdana,arial, sans-serif;
+  color: white;
+  text-shadow:
+    0 1px 2px black,
+    0 1px 0px black,
+    1px 0 0px black,
+    1px 2px 1px black,
+    4px 5px 3px black,
+    5px 4px 2px black,
+    5px 6px 2px black,
+    6px 5px 2px black,
+    6px 7px 1px black,
+    7px 6px 1px black,
+    7px 8px 0px black,
+    8px 7px 0px black;
+  
+  
+  
+  position: relative;
+  animation-name: bounce;
+  animation-delay: 2s;
+
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+/* Source: https://www.howtocodeschool.com/2020/10/button-bounce-effect-using-css.html */
+@keyframes bounce {
+  0%, 25%, 50%, 75%, 100% {
+    transform: translateY(0); 
+  }
+  12.5%,37.5% {
+    transform: translateY(-10px); 
+  }
+  62.5% ,87.5% {
+    transform: translateY(-10px); }
+}
+
+/* Start and stop button customization */
+button {
+  padding: 20px;
+  border-radius: 100px;
+  background-color: white;
+  box-shadow: 6px 10px;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+}
+
+#startBtn:hover {
+  background: lime; 
+  animation: bounce 3s linear; 
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#stopBtn:hover {
+  background: red; 
+}
+
+.hidden {
+  display: none;
+}
+
+button:hover{
+  box-shadow: 5px 7px;
+  cursor: pointer;
+}
+button:active {
+  box-shadow: 2px 3px;
+}
+
+/* Colored button customizations */
+#gameButtonArea button{
+  width:200px;
+  height:200px;
+  margin:2px;
+  border-radius:100px;
+}
+
+#button1 {
+  background: lightgreen;
+  border-color:lightgreen;
+}
+
+/* Box-shadow source: https://www.w3schools.com/css/css3_buttons.asp */
+#button1:active, #button1.lit {
+  background:green;
+  border-color:green; 
+  box-shadow: 0 8px 16px 0 green, 0 6px 20px 0 green;
+}
+
+#button2 {
+  background: lightblue;
+  border-color:lightblue;
+}
+
+#button2:active, #button2.lit {
+  background:blue;
+  border-color:blue;
+  box-shadow: 0 8px 16px 0 blue, 0 6px 20px 0 blue;
+}
+
+#button3 {
+  background: pink;
+  border-color:pink;
+}
+
+#button3:active, #button3.lit {
+  background:red;
+  border-color:red;
+  box-shadow: 0 8px 16px 0 red, 0 6px 20px 0 red;
+}
+
+#button4 {
+  background: lightyellow;
+  border-color:lightyellow;
+}
+
+#button4:active, #button4.lit {
+  background:yellow;
+  border-color:yellow;
+  box-shadow: 0 8px 16px 0 yellow, 0 6px 20px 0 yellow;
+}
+
+#button5 {
+  background: lightgray;
+  border-color:lightgray;
+}
+
+#button5:active, #button5.lit {
+  background:gray;
+  border-color:gray;
+  box-shadow: 0 8px 16px 0 gray, 0 6px 20px 0 gray;
+}
+
+/* Visual timer customization */
+#countdown {
+  font-family:v erdana,arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow:
+    
+    0 1px 2px black,
+    0 1px 0px black,
+    1px 0 0px black,
+    1px 2px 1px black,
+    4px 5px 3px black,
+    5px 4px 2px black,
+    5px 6px 2px black,
+    6px 5px 2px black,
+    6px 7px 1px black,
+    7px 6px 1px black,
+    7px 8px 0px black,
+    8px 7px 0px black;
+  
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+/* Page bottom customization */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 110px;
+  justify-content: center;
+  font-size: 12px;
+  background-color: #a9a9a9;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+    
+/* Source: https://codepen.io/Momika/pen/ydaWmQ */
+.squares{
+  width:100%;
+  height: 100%;
+  position:absolute;
+  z-index: -1;
+  overflow:hidden;
+  top:0;
+  left:0;
+}
+.square{
+  position: absolute;
+  bottom:-100px;
+  width:40px;
+  height: 40px;
+  background:#f1f1f1;
+  border-radius:0%;
+  opacity:0.5;
+  animation: rise 10s infinite ease-in;
+}
+.square:nth-child(1){
+  background-color: pink;
+  width:40px;
+  height:40px;
+  left:10%;
+  animation-duration:9s;
+}
+.square:nth-child(2){
+  background-color: lightgreen;
+  width:20px;
+  height:20px;
+  left:20%;
+  animation-duration:8s;
+  animation-delay:9s;
+}
+.square:nth-child(3){
+  background-color: lightyellow;
+  width:50px;
+  height:50px;
+  left:35%;
+  animation-duration:17s;
+  animation-delay:10s;
+}
+.square:nth-child(4){
+  background-color: lightblue;
+  width:80px;
+  height:80px;
+  left:50%;
+  animation-duration:8s;
+  animation-delay:0s;
+}
+.square:nth-child(5){
+  width:35px;
+  height:35px;
+  left:55%;
+  animation-duration:16s;
+  animation-delay:1s;
+}
+.square:nth-child(6){
+  background-color: pink;
+  width:45px;
+  height:45px;
+  left:65%;
+  animation-duration:18s;
+  animation-delay:8s;
+}
+.square:nth-child(7){
+  background-color: lightgreen;
+  width:90px;
+  height:90px;
+  left:70%;
+  animation-duration:12s;
+  animation-delay:10s;
+}
+.square:nth-child(8){
+  background-color: lightyellow;
+  width:25px;
+  height:25px;
+  left:80%;
+  animation-duration:10s;
+  animation-delay:6s;
+}
+.square:nth-child(9){
+  background-color: lightblue;
+  width:15px;
+  height:15px;
+  left:70%;
+  animation-duration:15s;
+  animation-delay:7s;
+}
+.square:nth-child(10){
+  width:90px;
+  height:90px;
+  left:25%;
+  animation-duration:10s;
+  animation-delay:6s;
+}
+
+@keyframes rise{
+  0% {
+    bottom:-100px;
+    transform:translateX(0);
+  }
+  50% {
+    transform:translate(100px);
+  }
+  100% {
+    bottom:1080px;
+    transform:translateX(-200px);
+  }
+}

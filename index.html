@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.global/bd9d3c02-9f1d-43fb-b77b-9ae7df1537dc/Screen%20Shot%202022-03-22%20at%204.00.41%20PM.png?v=1647979253972">
+
+    <title>Light and Sound Memory Game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+  
+    <!-- Header Content -->
+    <h1 > 
+      <br>
+      Light and Sound Memory Game
+    </h1>
+    
+    <!-- Game Description Content -->
+    <p>
+      Welcome to the game! Repeat back the pattern by pressing buttons before time runs out.
+    </p>
+    
+    <!-- Button Content -->
+    <button id="startBtn" onclick="startGame()" >Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    
+    <br>
+    <br>
+    <br>
+
+    <div id = "gameButtonArea" >
+      <audio src="https://cdn.glitch.global/bd9d3c02-9f1d-43fb-b77b-9ae7df1537dc/A0.mp3?v=1647464582026" id="1"></audio>
+      <audio src="https://cdn.glitch.global/bd9d3c02-9f1d-43fb-b77b-9ae7df1537dc/B0.mp3?v=1647464585980" id="2"></audio>
+      <audio src="https://cdn.glitch.global/bd9d3c02-9f1d-43fb-b77b-9ae7df1537dc/C1.mp3?v=1647554432267" id="3"></audio>
+      <audio src="https://cdn.glitch.global/bd9d3c02-9f1d-43fb-b77b-9ae7df1537dc/D1.mp3?v=1647560725273" id="4"></audio>
+      <audio src="https://cdn.glitch.global/bd9d3c02-9f1d-43fb-b77b-9ae7df1537dc/E1.mp3?v=1647560839540" id="5"></audio>
+
+      <button id="button1" onclick="guess(1);timer()" onmousedown="startTone(1)" onmouseup="stopTone(1)"></button>
+      <button id="button2" onclick="guess(2);timer()" onmousedown="startTone(2)" onmouseup="stopTone(2)"></button>
+      <button id="button3" onclick="guess(3);timer()" onmousedown="startTone(3)" onmouseup="stopTone(3)"></button>
+      <button id="button4" onclick="guess(4);timer()" onmousedown="startTone(4)" onmouseup="stopTone(4)"></button>
+      <button id="button5" onclick="guess(5);timer()" onmousedown="startTone(5)" onmouseup="stopTone(5)"></button>
+
+    </div>
+
+    <p 
+       id="countdown" class="hidden">
+    </p>
+      
+         
+    <footer>
+     <!-- Source: https://codepen.io/Momika/pen/ydaWmQ -->
+      <section class="sticky">
+        <div class="squares">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        </div>
+      </section>
+      
+      <br>
+      <br>
+      By Robert Reyes-Enamorado 
+    </footer>
+    
+  </body> 
+</html>
